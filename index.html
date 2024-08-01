@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aalya's Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/44420c4eb4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images /logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experiences">Experiences</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        
+
+            <div class ="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Aalya Vora</span><br> Computer Science and Economics</h1>
+            </div>
+        </div>
+    </div>
+    <!--------about -->
+    <div id="about">
+        <div class="container">
+            <div class ="row">
+                <div class="about-col-1">
+                    <img src="images /Untitled design (8).png">
+                </div>
+                
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a passionate computer science and economics student at the University of Massachusetts Amherst, I am dedicated to leveraging my diverse skill set in software development and data science to solve complex problems. With hands-on experience as a Data Analyst at Auxilo Finserve, a Full Stack Developer at Digivriddhi Technologies, and a Research Assistant at CICS Labs, I have honed my abilities in both data analysis and software engineering. My entrepreneurial venture, Sili Dry, and being production coordinator at UVC-TV underscore my drive and creativity. I am excited to continue exploring the synergies between software development and data science to create innovative solutions that make a meaningful impact.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience', event)">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education', event)">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span style="color: #73b0aa;">Languages</span><br>Java, Python, C/C++, SQL, JavaScript, LATEX, HTML/CSS<br><br></li>
+                            <li><span style="color: #73b0aa;">Frameworks</span><br>React, Angular, Express, Node.js, JUnit, WordPress, Material-UI, Netbeans<br><br></li>
+                            <li><span style="color: #73b0aa;">Developer Tools</span><br>Git, VS Code, Visual Studio, PyCharm, Eclipse, MongoDB, Vercel, Webstorm<br><br></li>
+                            <li><span style="color: #73b0aa;">Libraries</span><br>Pandas, NumPy, Matplotlib, JDK, Jfoenix,Mysql-connector-java, Poi<br><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Undergraduate Research Assistant: December 2023 - March 2024</span><br>CICS Labs(URV Program)<br><br> </li>
+                            <li><span>Auxilo Finserve Private Limited: July 2023 - August 2023</span><br>Business Intelligence, Data Analyst<br><br></li>
+                            <li><span>Digivriddhi Technologies Private Limited: January 2023 - February: 2023</span><br>Software Development, Full Stack Developer<br><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>University of Massachusetts Amherst: Aug 2021 - May 2025</span><br>Bachelor of Sciences in Computer Science and Economics, Minor in Business<br>Using Data Structures, Programming with Data Structures, Programming Methodologies, Computer System Principles, Reasoning under Uncertainty, Introduction to Computation, Introduction to Algorithms, Theory and Practice of Software Engineering, Introduction to Human-Computer Interaction, Principles of Data Science, Practice and Applications of Data Management, Game Theory
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--------------experiences-->
+
+    <div id="experiences">
+        <div class="container">
+            <br><br>
+            <h1 class="sub-title">Professional Experiences</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-book"></i>
+                    <h2> Undergraduate Research Assistant</h2>
+                    <p>Affiliated with CICS Labs of Manning College of Information and Computer Sciences, UMass Amherst. Worked as part of the URV program under a PHD mentor</p>
+                    <a href="https://www.linkedin.com/in/aalya-vora/details/experience/" target="_blank" rel="noopener noreferrer">Learn more</a>
+               
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2> Data Analyst </h2>
+                    <p>Worked as part of the business intelligence team at an NBFC registered with the Reserve Bank of India at Auxilo Finserve Private Limited, Mumbai, India.</p>
+                    <a href="https://www.linkedin.com/in/aalya-vora/details/experience/" target="_blank" rel="noopener noreferrer">Learn more</a>
+               
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Full Stack Developer </h2>
+                    <p>Worked as part of the software development team for India's First Dairy Fintech platform at Digivriddhi Technologies Private Limited, Mumbai, India. </p>
+                    <a href="https://www.linkedin.com/in/aalya-vora/details/experience/" target="_blank" rel="noopener noreferrer">Learn more</a>
+               
+                </div>
+                <div>
+                    <i class="fa-solid fa-business-time"></i>
+                    <h2> Founder of Sili-Dry </h2>
+                    <p> Inspired by my experience as a highschool soccer player, I founded a business venture to create innovative absorbent products like Sili-dry sacks and Odor-go, designed to tackle moisture and odor issues during Mumbai's monsoon season.</p>
+                    <a href="https://www.linkedin.com/in/aalya-vora/details/experience/" target="_blank" rel="noopener noreferrer">Learn more</a>
+               
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--------------portfolio-->
+    <br><br>
+    <br><br>
+    <br><br>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images /food-del.png" alt="Food Delivery Project">
+              <div class="layer">
+                <h3>Food Delivery App</h3>
+                <p> Created a Food Menu App landing page using React, integrating the MealDB API and Swiggy.com's design theme for frontend development evaluation. </p>
+                <a href="https://github.com/aalya2406/Aalya-Vora---Frontend-Developer."><i class="fa-brands fa-square-github"></i></a>
+              </div>
+                </div>
+                <div class="work">
+                    <img src="images /campuswire.png" alt="Campuswire Project">
+               <div class="layer">
+                <h3>Campuswire App</h3>
+                <p>  
+                    Created an analytics dashboard for CampusWire using JavaScript, Python, React, Next.js, MongoDB, Git/GitHub, JIRA, and Vercel.</p>
+                    <a href="https://github.com/massbchou/CS320Team8"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images /calculator.png" alt="Calculator Project">
+               <div class="layer">
+                <h3>Calculator</h3>
+                <p> Developed a Python Tkinter application for an iOS-inspired calculator with basic arithmetic, advanced functions, and a notepad for notes and drawing. </p>
+                <a href="https://github.com/aalya2406/Calculator"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                </div>
+            </div>
+            <a href="https://github.com/aalya2406" class="btn">See more</a>
+        </div>
+    </div>
+
+<!--------------contact-->
+<br><br>
+<br><br>
+
+<div id="contact">
+    <div class="container">
+        <div class ="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> avora110@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +1 917624-8823</p>
+                <p><i class="fa-solid fa-square-phone"></i> +91 750605-3264</p>
+                <div class = "social-icons">
+                    <a href="https://www.linkedin.com/in/aalya-vora/"><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href="https://github.com/aalya2406"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="images /Aalya_s_Resume copy with uvc copy.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                
+            </div>
+        </div>
+    </div> 
+    <div class="copyright">
+        <p>  </p>
+        <p>  © Aalya Vora  </p>
+        <p>  </p>
+    </div>
+</div>
+ 
+    <script>
+        var tablinks = document.querySelectorAll(".tab-links");
+        var tabcontents = document.querySelectorAll(".tab-contents");
+    
+        function opentab(tabname, event) {
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+            }
+            for (var i = 0; i < tabcontents.length; i++) {
+                tabcontents[i].classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+<script>
+    function openmenu() {
+        var sidemenu = document.getElementById("sidemenu");
+        sidemenu.classList.add("active");
+    }
+
+    function closemenu() {
+        var sidemenu = document.getElementById("sidemenu");
+        sidemenu.classList.remove("active");
+    }
+</script>
+
+<script>
+    // URL of your Google Apps Script
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyIlQXQrhHS_rCDl-qZs-biS6hDxDTH8ypdLC9diAsgnRG7c6fVA-MEedCWGlisgLOf/exec';
+
+    // Target the existing form using its name
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+        e.preventDefault(); // Prevent default form submission
+
+        // Send form data to Google Sheets using Fetch API
+        fetch(scriptURL, {
+            method: 'POST',
+            body: new FormData(form) // Use existing form data
+        })
+        .then(response => {
+            if (response.ok) {
+                msg.innerHTML = "Message sent successfully";
+                setTimeout(function() {
+                    msg.innerHTML = ""; // Clear the message after 5 seconds
+                }, 5000);
+                form.reset(); // Reset the form
+            } else {
+                throw new Error('Network response was not ok.');
+            }
+        })
+        .catch(error => {
+            console.error('Error!', error.message);
+            msg.innerHTML = "There was a problem sending your message.";
+            setTimeout(function() {
+                msg.innerHTML = ""; // Clear the message after 5 seconds
+            }, 5000);
+        });
+    });
+</script>
+
+
+
+
+
+</body>
+</html>
